@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Videojuegos </title>
+</head>
+<body>
+
+<div>
+	<form action = "/index.html" method = "POST">
+<h1>Venta de videojuegos</h1>
+
+<label for = "respuesta_nombre"> Ingrese su nombre </label>
+  <br>
+  <input type = "text" name = "nombre" id = "respuesta_nombre">
+  <br><br>
+  <label for = "respuesta_nombre"> Ingrese correo </label>
+  <br>
+  <input type = "text" name = "correo" id = "respuesta_correo">
+  <br><br>
+
+  <label for = "clave"> Cree contraseña: </label>
+  <input type = "password" id = "clave" name = "clave">
+</form>
+<br><br>
+<label for = "juego"> ¿Qué Genero desea? </label>
+  <select id = "juego" name = "juego">
+    <option value = "accion"> Accion </option>
+    <option value = "deporte"> Deporte </option>
+    <option value = "tiro"> Tiro </option>
+    <option value = "terror"> Terror </option>
+  </select>
+
+  <br><br>
+<label for = "text"> Juego deseado: </label>
+  <input type = "text" id = "text" name = "text">
+</form>
+<br><br>
+
+<form>
+  <p> Elija la consola: </p>
+  <label for = "xbox"> Xbox </label>
+  <input id = "xbox" name = "consola" type = "checkbox" value = "xbox">
+  <br>
+  <label for = "xbox360"> Xbox 360 </label>
+  <input id = "xbox360" name = "consola" type = "checkbox" value = "xbox360">
+  <br>
+  <label for = "xboxones"> Xbox one S</label>
+  <input id = "xboxones" name = "consola" type = "checkbox" value = "xboxones">
+  <br>
+  <label for = "xboxonex"> Xbox one X</label>
+  <input id = "xboxonex" name = "consola" type = "checkbox" value = "xboxonex">
+  <br>
+  <label for = "playstation2"> Play Station 2 </label>
+  <input id = "playstation2" name = "consola" type = "checkbox" value = "playstation2">
+  <br>
+  <label for = "playstation3"> Play Station 3 </label>
+  <input id = "playstation3" name = "consola" type = "checkbox" value = "playstation3">
+  <br>
+  <label for = "playstation4"> Play Station 4 </label>
+  <input id = "playstation4" name = "consola" type = "checkbox" value = "playstation4">
+</form>
+
+<br>
+<p> ¿Cuántos desea? </p>
+  <input type = "radio" id = "dos" name = "respuesta" value = "2">
+  <label for = "dos"> 1 </label>
+  <br>
+  <input type = "radio" id = "once" name = "respuesta" value = "11">
+  <label for = "once"> 2 </label>
+  <br>
+  <input type = "radio" id = "once" name = "respuesta" value = "11">
+  <label for = "once"> Mas </label>
+<br><br>
+<label for = "ciudad"> ¿Ciudad a donde mandarlo? </label>
+  <input type = "text" list = "ciudades" id = "ciudad" name = "ciudad">
+
+  <datalist id = "ciudades">
+    <option value = "Torreon"> </option>
+    <option value = "Oaxaca"> </option>
+    <option value = "Toluca"> </option>
+    <option value = "Ciudad de México"> </option>
+    <option value = "Veracruz"> </option>
+    <option value = "Otro"> </option>
+  </datalist>
+
+<br><br>
+  <form>
+  <label for = "Nivel"> Nivel de servicio del 1 al 100</label>
+  <input id = "Nivel" name = "Nivel" type = "range" min = "0" max = "100" step = "1">
+
+  <br><br>
+<label for = "blog"> Comentarios </label>
+  <hr>
+  <textarea id = "blog" name = "blog" rows = "5" cols = "30">
+  </textarea>
+<br><br>
+  <input type = "submit" value = "Enviar">
+</form>
+</div>
+
+</body>
+</html>
